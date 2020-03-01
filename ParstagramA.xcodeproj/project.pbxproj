@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2C65B800F3396A78069FC988 /* Pods_ParstagramA_ParstagramAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2B11BB8F7827B01319A623 /* Pods_ParstagramA_ParstagramAUITests.framework */; };
+		3B03A278240B6E1200441F45 /* Parse in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A258240B6E1200441F45 /* Parse */; };
+		3B03A279240B6E1200441F45 /* Bolts in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A259240B6E1200441F45 /* Bolts */; };
+		3B03A27A240B6E1200441F45 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A25A240B6E1200441F45 /* en.lproj */; };
+		3B03A27B240B6E1200441F45 /* Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A276240B6E1200441F45 /* Alamofire */; };
+		3B03A27C240B6E1200441F45 /* AlamofireImage in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A277240B6E1200441F45 /* AlamofireImage */; };
 		3BA9DE63240B39D600CBE666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE62240B39D600CBE666 /* AppDelegate.swift */; };
 		3BA9DE65240B39D600CBE666 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE64240B39D600CBE666 /* SceneDelegate.swift */; };
 		3BA9DE6A240B39D600CBE666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9DE68240B39D600CBE666 /* Main.storyboard */; };
@@ -22,6 +27,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3B03A248240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		3B03A24A240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8498160B5D29EF2745E4D41F2D971B5;
+			remoteInfo = AlamofireImage;
+		};
+		3B03A24C240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F84B331B5D6AAF1548DD1BB004AE5C2A;
+			remoteInfo = Bolts;
+		};
+		3B03A24E240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0652F2476C7C87C6C0F6CB68072EA25F;
+			remoteInfo = Parse;
+		};
+		3B03A250240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED7ADA84A7005589821D254428CD2D26;
+			remoteInfo = "Parse-Parse";
+		};
+		3B03A252240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D17D7A724FBD21A2534025A6B660385;
+			remoteInfo = "Pods-ParstagramA";
+		};
+		3B03A254240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 304727C8571E15272A7DE1B7A2237B67;
+			remoteInfo = "Pods-ParstagramA-ParstagramAUITests";
+		};
+		3B03A256240B6DF700441F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 275A2C38979BBC4EED7706955565BA75;
+			remoteInfo = "Pods-ParstagramATests";
+		};
 		3BA9DE76240B39D700CBE666 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3BA9DE57240B39D600CBE666 /* Project object */;
@@ -44,6 +105,12 @@
 		2C53B5A1BD6F000FC6B8696D /* Pods-ParstagramA-ParstagramAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramA-ParstagramAUITests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramA-ParstagramAUITests/Pods-ParstagramA-ParstagramAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		357263F0E5778CCAA6568DA1 /* Pods-ParstagramATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramATests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramATests/Pods-ParstagramATests.release.xcconfig"; sourceTree = "<group>"; };
 		37B5F1D4A3B2F39850A12979 /* Pods-ParstagramATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramATests.debug.xcconfig"; path = "Target Support Files/Pods-ParstagramATests/Pods-ParstagramATests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B03A23D240B6DF600441F45 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Pods.xcodeproj"; sourceTree = "<group>"; };
+		3B03A258240B6E1200441F45 /* Parse */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Parse; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Parse"; sourceTree = "<group>"; };
+		3B03A259240B6E1200441F45 /* Bolts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Bolts; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Bolts"; sourceTree = "<group>"; };
+		3B03A25A240B6E1200441F45 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/en.lproj"; sourceTree = "<group>"; };
+		3B03A276240B6E1200441F45 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Alamofire"; sourceTree = "<group>"; };
+		3B03A277240B6E1200441F45 /* AlamofireImage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AlamofireImage; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/AlamofireImage"; sourceTree = "<group>"; };
 		3BA9DE5F240B39D600CBE666 /* ParstagramA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParstagramA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA9DE62240B39D600CBE666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA9DE64240B39D600CBE666 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +160,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B03A23E240B6DF600441F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B03A249240B6DF700441F45 /* Alamofire.framework */,
+				3B03A24B240B6DF700441F45 /* AlamofireImage.framework */,
+				3B03A24D240B6DF700441F45 /* Bolts.framework */,
+				3B03A24F240B6DF700441F45 /* Parse.framework */,
+				3B03A251240B6DF700441F45 /* Parse.bundle */,
+				3B03A253240B6DF700441F45 /* Pods_ParstagramA.framework */,
+				3B03A255240B6DF700441F45 /* Pods_ParstagramA_ParstagramAUITests.framework */,
+				3B03A257240B6DF700441F45 /* Pods_ParstagramATests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3BA9DE56240B39D600CBE666 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +243,12 @@
 		8B77212AF492FF8F5A7B2C57 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				3B03A23D240B6DF600441F45 /* Pods.xcodeproj */,
+				3B03A276240B6E1200441F45 /* Alamofire */,
+				3B03A277240B6E1200441F45 /* AlamofireImage */,
+				3B03A259240B6E1200441F45 /* Bolts */,
+				3B03A25A240B6E1200441F45 /* en.lproj */,
+				3B03A258240B6E1200441F45 /* Parse */,
 				1AD637CC4F6C161AF82C695D /* Pods-ParstagramA.debug.xcconfig */,
 				10306F031F50BCA490BF138F /* Pods-ParstagramA.release.xcconfig */,
 				FF6B4C1D9F28D08882E2FC85 /* Pods-ParstagramA-ParstagramAUITests.debug.xcconfig */,
@@ -266,6 +354,12 @@
 			mainGroup = 3BA9DE56240B39D600CBE666;
 			productRefGroup = 3BA9DE60240B39D600CBE666 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B03A23E240B6DF600441F45 /* Products */;
+					ProjectRef = 3B03A23D240B6DF600441F45 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3BA9DE5E240B39D600CBE666 /* ParstagramA */,
@@ -275,14 +369,78 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3B03A249240B6DF700441F45 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3B03A248240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A24B240B6DF700441F45 /* AlamofireImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireImage.framework;
+			remoteRef = 3B03A24A240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A24D240B6DF700441F45 /* Bolts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Bolts.framework;
+			remoteRef = 3B03A24C240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A24F240B6DF700441F45 /* Parse.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Parse.framework;
+			remoteRef = 3B03A24E240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A251240B6DF700441F45 /* Parse.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Parse.bundle;
+			remoteRef = 3B03A250240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A253240B6DF700441F45 /* Pods_ParstagramA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ParstagramA.framework;
+			remoteRef = 3B03A252240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A255240B6DF700441F45 /* Pods_ParstagramA_ParstagramAUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ParstagramA_ParstagramAUITests.framework;
+			remoteRef = 3B03A254240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B03A257240B6DF700441F45 /* Pods_ParstagramATests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ParstagramATests.framework;
+			remoteRef = 3B03A256240B6DF700441F45 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		3BA9DE5D240B39D600CBE666 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B03A278240B6E1200441F45 /* Parse in Resources */,
+				3B03A27C240B6E1200441F45 /* AlamofireImage in Resources */,
+				3B03A27B240B6E1200441F45 /* Alamofire in Resources */,
 				3BA9DE6F240B39D600CBE666 /* LaunchScreen.storyboard in Resources */,
 				3BA9DE6C240B39D600CBE666 /* Assets.xcassets in Resources */,
 				3BA9DE6A240B39D600CBE666 /* Main.storyboard in Resources */,
+				3B03A27A240B6E1200441F45 /* en.lproj in Resources */,
+				3B03A279240B6E1200441F45 /* Bolts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
