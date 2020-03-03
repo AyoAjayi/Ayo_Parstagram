@@ -8,16 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C65B800F3396A78069FC988 /* Pods_ParstagramA_ParstagramAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2B11BB8F7827B01319A623 /* Pods_ParstagramA_ParstagramAUITests.framework */; };
-		3B03A278240B6E1200441F45 /* Parse in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A258240B6E1200441F45 /* Parse */; };
-		3B03A279240B6E1200441F45 /* Bolts in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A259240B6E1200441F45 /* Bolts */; };
-		3B03A27A240B6E1200441F45 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A25A240B6E1200441F45 /* en.lproj */; };
-		3B03A27B240B6E1200441F45 /* Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A276240B6E1200441F45 /* Alamofire */; };
-		3B03A27C240B6E1200441F45 /* AlamofireImage in Resources */ = {isa = PBXBuildFile; fileRef = 3B03A277240B6E1200441F45 /* AlamofireImage */; };
 		3BA9DE63240B39D600CBE666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE62240B39D600CBE666 /* AppDelegate.swift */; };
 		3BA9DE65240B39D600CBE666 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE64240B39D600CBE666 /* SceneDelegate.swift */; };
 		3BA9DE6A240B39D600CBE666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9DE68240B39D600CBE666 /* Main.storyboard */; };
 		3BA9DE6C240B39D600CBE666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9DE6B240B39D600CBE666 /* Assets.xcassets */; };
-		3BA9DE6F240B39D600CBE666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA9DE6D240B39D600CBE666 /* LaunchScreen.storyboard */; };
 		3BA9DE7A240B39D700CBE666 /* ParstagramATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE79240B39D700CBE666 /* ParstagramATests.swift */; };
 		3BA9DE85240B39D700CBE666 /* ParstagramAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE84240B39D700CBE666 /* ParstagramAUITests.swift */; };
 		3BA9DE93240B3B9700CBE666 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA9DE92240B3B9700CBE666 /* LoginViewController.swift */; };
@@ -439,14 +433,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03A278240B6E1200441F45 /* Parse in Resources */,
-				3B03A27C240B6E1200441F45 /* AlamofireImage in Resources */,
-				3B03A27B240B6E1200441F45 /* Alamofire in Resources */,
-				3BA9DE6F240B39D600CBE666 /* LaunchScreen.storyboard in Resources */,
 				3BA9DE6C240B39D600CBE666 /* Assets.xcassets in Resources */,
 				3BA9DE6A240B39D600CBE666 /* Main.storyboard in Resources */,
-				3B03A27A240B6E1200441F45 /* en.lproj in Resources */,
-				3B03A279240B6E1200441F45 /* Bolts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
