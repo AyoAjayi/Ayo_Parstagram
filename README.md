@@ -26,5 +26,3 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/aCt9KAUhyw.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 #Gif not displaying and can be accessed through this link: http://g.recordit.co/aCt9KAUhyw.gif
-
-http://g.recordit.co/XkkLcI7hoQ.gif
