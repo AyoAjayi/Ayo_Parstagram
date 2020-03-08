@@ -26,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                       configuration.server = "https://fast-tundra-18008.herokuapp.com/parse"
                   })
               )
+        
         return true
     }
 
