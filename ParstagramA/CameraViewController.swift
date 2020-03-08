@@ -57,7 +57,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let image = info[.editedImage] as! UIImage
         //resize image so we can upload it to heroku. Import alamofireimage to resize it
         let size = CGSize(width: 300, height:300)
-        let scaledImage = image.af_imageScaled(to:size)
+        let scaledImage = image.af_imageAspectScaled(toFit: size)
         //store scaled image to image view
         imageView.image = scaledImage
         //dismiss camera view
